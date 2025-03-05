@@ -7,5 +7,8 @@ const avengers = [
   'Captain M.'
 ]
 function findLongestWord(stringList) {
-  // Completar código
+  for (let i = 0; i < stringList; i++) {
+    let array = 0
+    if(array > )
+  }
 }
