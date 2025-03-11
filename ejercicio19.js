@@ -7,6 +7,10 @@ const toys = [
   { id: 60, name: 'Nerf Blaster' },
   { id: 71, name: 'Sylvanian Families - Familia gato' }
 ]
+let toysSinGato = []
 for (const element of toys) {
-  console.log(element)
+  if (!element.name.includes('gato')) {
+    toysSinGato.push(element)
+  }
 }
+console.log(toysSinGato)
